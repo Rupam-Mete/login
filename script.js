@@ -6,7 +6,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (email === 'rush' && password === 'pagli') {
         window.location.href = 'success.html';
-    } else {
+    } 
+    else-if {email === 'soumyadip' && password === 'ghosh') {
+        window.location.href = 'success.html';
+}else {
         window.location.href = 'error.html';
     }
 });
