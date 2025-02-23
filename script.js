@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     } 
     else-if {email === 'soumyadip' && password === 'ghosh') {
         window.location.href = 'success.html';
-}else {
+ } else {
         window.location.href = 'error.html';
     }
 });
